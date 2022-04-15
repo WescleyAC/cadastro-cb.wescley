@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <h2 class="title-register">Cadastro</h2><br>
+
+        <form action="">
+            <legend class="space-legend">Nome 
+                <input class="space-input" type="text" name="nome" required>
+            
+            </legend>
+
+            <legend class="space-legend">Email 
+                <input class="space-input" type="text" name="Email">
+            </legend>
+            
+
+            <legend class="space-legend">Idade 
+                <input class="space-input" style="font-weight: 40px;" type="number" name="idade" min="12" max="100">
+            </legend>
+            
+
+            <legend class="space-legend">Data de Nascimento 
+                <input class="space-input" type="date" name="data-nascimento">
+            </legend>
+            
+
+            <legend class="space-legend">Onde você possui conta: 
+
+            <div class="space-input" >
+                <input type="checkbox" name="instagran">Instagran
+                <input type="checkbox" name="facebook">FaceBook
+                <input type="checkbox" name="youtube">YouTube
+            </div>
+            </legend>
+            
+
+            <legend class="space-legend"> Sexo:
+
+            <div class="space-legend">
+                <input type="radio" name="genero">Masculino
+                <input type="radio" name="genero">Feminino
+            </div>
+            <div class="space-legend">
+                <label for="corolhos" ></label>
+                Cor dos olhos 
+                <input type="color" name="cor-olhos" id="corolhos">
+            </div>
+                    
+            <div class="space-legend">
+                    <label for="area" >Biografia</label> 
+                    <textarea class="space-input" name="biografia" id="area" cols="25" rows="5"></textarea>
+            </div> 
+
+            <div class="space-legend">
+                    <label for="fone">Telefone</label>
+                           <input class="space-input" type="tel" name="fone" id="fone">
+            </div>        
+
+            <div class="space-legend">
+                       <label for="facebook" class="space-legend"></label>Link do perfil do FaceBook <br>
+                            <input class="space-input" type="url" name="facebook" id="facebook">
+            </div>    
+
+                    <label for="senha" class="space-legend"></label>Senha 
+                             <input class="space-input" type="password" name="senha" id="senha" minlength="4" maxlength="6">
+                    
+
+                    <label class="space-legend">
+                        
+                            <input id="button1" type="reset" name="apagar" value="Limpar">
+                        
+                    </label>
+
+                    <label class="space-legend">
+                
+                        <input id="button2" type="submit" name="enviar" value="Enviar Dados">
+                    
+                    </label>
+                
+
+
+            </legend>
+
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
